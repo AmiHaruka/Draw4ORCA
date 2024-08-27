@@ -11,6 +11,7 @@ python draw_4ofakeg.py 1_fake.out  2_fake.out  etc...
 python draw_4ofakeg.py  *_fake.out 
 ```
 - Based on matplotlib and Ofakeg produced by *Lu Tian*, ​​it can accept one or more ```*_fake.out files```. And draw SCF energy changes, maximum force changes, etc.
+- Applicable to general **sp** or **opt** Gaussian output files, but the energy change diagram will not be drawn.
 
 ## scan
 ```bash
